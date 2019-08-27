@@ -1,0 +1,26 @@
+.navbar-brand {
+  display: flex;
+  max-width: 100%;
+  height: auto; }
+  .navbar-brand .logo {
+    position: relative;
+    margin-right: 10px; }
+    .navbar-brand .logo .bolt {
+      position: absolute;
+      top: 5px;
+      left: 10px; }
+
+.carousel-item .container {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  z-index: 100;
+  color: red; }
+
+#work {
+  background: url("/img/optional.png") no-repeat center center/cover; }
+
+#latestNews {
+  background: url("/img/optional2.png") no-repeat center center/cover; }
+
+/*# sourceMappingURL=maps/style.css.map */
