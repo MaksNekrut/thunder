@@ -24,4 +24,14 @@
   .hide {
     display: none; } }
 
+.pos-rel {
+  position: relative; }
+
+.pos-abs {
+  position: absolute; }
+
+.main-title {
+  top: 35px;
+  left: 35px; }
+
 /*# sourceMappingURL=maps/style.css.map */
