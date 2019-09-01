@@ -1,3 +1,6 @@
+body 
+	font-family: 'Raleway', sans-serif
+	
 .navbar-brand
 			position: relative
 			.bolt
@@ -21,16 +24,34 @@
 #footer
 	background-color: #000000
 		
-@media screen and (max-width: 768px)
+@media screen and (max-width: 1100px)
 	.hide
 		display: none
 
-.pos-rel
-	position: relative
-	
-.pos-abs
-	position: absolute
+	#work
+		button
+			display: block
+			margin: 0 auto
 
-.main-title
-	top: 35px
-	left: 35px
+	#sample
+		.container
+			margin-left: 70px
+		.btn
+			display: block
+			margin-right: 0 auto
+	
+@media screen and (max-width: 768px)
+	.hide-sm
+		display: none
+	#sample
+		.container
+			margin: 0 auto
+			h4 
+			  padding: 10px 110px
+			.btn
+			  margin: 0 auto
+			.scenter
+			  margin-left: 110px  
+	#product
+		.prcenter
+			margin-left: 50px
